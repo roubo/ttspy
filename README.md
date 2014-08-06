@@ -22,13 +22,14 @@ sudo apt-get install espeak
 
 >   使用实例
 
-''''
+<pre>
 import pyttsx
 engine = pyttsx.init()
 engine.say('Greetings!')
 engine.say('How are you today?')
 engine.runAndWait()
-''''
+</pre>
+
 >   api文档
 
 http://pyttsx.readthedocs.org/
